@@ -1,0 +1,60 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.container-fluid{
+  width: 90%;
+}
+.container-fluid a::before{
+  content: "";
+  color: aqua;
+}
+.navbar a{
+  color: white;
+}
+.navbar .container-fluid .collapse .navbar-nav .nav-item a{
+  padding: 0 25px;
+}
+.navbar .container-fluid .collapse .navbar-nav li{
+  margin: 0% 5px;
+}
+.collapse .navbar-nav .active{
+  color: rgb(46, 164, 243);
+  border: 2px solid rgb(46, 164, 243);
+  border-radius: 50px;
+}
+.collapse .navbar-nav:visited{
+  color: rgb(46, 164, 243);
+}
+.collapse ul li a:hover{
+  padding: 0 25px;
+  color: rgb(46, 164, 243);
+  border: 2px solid rgb(46, 164, 243);
+  border-radius: 50px;
+}
+.navbar-brand h1{
+  font-size: 1.15rem;
+}
+.navbar-brand p{
+  font-size: 0.65rem;
+}
+.navbar-brand i{
+  color: rgb(46, 164, 243);
+  font-size: xx-large;
+}
+.weather{
+  background-image: url(../images/National-Weather.webp);
+  background-size: cover;
+  background-position: center center;
+}
+.weather-con{
+  margin: auto;
+  width: 90%;
+}
+.weather-con .search button{
+  background-color: rgb(46, 164, 243);
+  color: white;
+  border-radius: 50px;
+  padding: 1% 3%;
+}
